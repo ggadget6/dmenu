@@ -1,12 +1,12 @@
-#dmenu - dynamic menu
+# dmenu - dynamic menu
 dmenu is an efficient dynamic menu for X.
 
 
-##Requirements
+## Requirements
 In order to build dmenu you need the Xlib header files.
 On Ubuntu, this may require installing libxinerama-dev
 
-##Installation
+## Installation
 Edit config.mk to match your local setup (dmenu is installed into
 the /usr/local namespace by default).
 
@@ -15,7 +15,7 @@ Afterwards enter the following command to build and install dmenu
 
     make clean install
 
-##Patches
+## Patches
 This build of dmenu has the following patches:
 1. Border
 2. Center
@@ -23,7 +23,7 @@ This build of dmenu has the following patches:
 4. xresources
 5. xyw
 
-###Xresources
+### Xresources
 Colors that can be set in Xresources file:
 dmenu.font
 dmenu.background
@@ -31,6 +31,6 @@ dmenu.foreground
 dmenu.selbackground
 dmenu.selforeground
 
-##Running dmenu
+## Running dmenu:
 See the man page for details.
 
